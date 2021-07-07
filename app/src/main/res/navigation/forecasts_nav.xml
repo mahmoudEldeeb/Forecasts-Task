@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/forecasts_nav"
+    app:startDestination="@id/forecastsFragment">
+    <fragment
+        android:id="@+id/forecastsFragment"
+        android:name="com.deeb.forcasttask.views.ForecastsFragment"
+        android:label="fragment_forecasts"
+        tools:layout="@layout/fragment_forecasts" />
+</navigation>
